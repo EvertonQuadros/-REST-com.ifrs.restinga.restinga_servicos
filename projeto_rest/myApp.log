@@ -1,0 +1,1277 @@
+08-05-2017 20:37:02 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 20:37:02 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 20:37:02 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 20:37:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 20:37:26 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 20:37:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 20:37:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 20:37:26 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 20:37:26 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 20:37:27 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 20:37:27 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 20:37:27 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 20:37:28 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 20:37:28 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 20:37:28 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 20:37:28 INFO  PessoaProfissaoEntry:71 - CONSULTA:  Where flg_principal  =  true
+08-05-2017 20:37:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 20:37:28 ERROR PessoaProfissaoEntry:78 - java.lang.Boolean cannot be cast to java.lang.Integer
+08-05-2017 20:38:33 INFO  Main:46 - Instanciando contexto...
+08-05-2017 20:38:33 INFO  Main:51 - Instanciando servidor...
+08-05-2017 20:38:33 INFO  Main:60 - Instanciando banco de dados...
+08-05-2017 20:38:33 INFO  DBConnection:141 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 20:38:33 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 20:38:34 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 20:38:34 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 20:38:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 20:38:38 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 20:38:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 20:38:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 20:38:38 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 20:38:38 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 20:38:39 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 20:38:39 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 20:38:39 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 20:38:39 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 20:38:40 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 20:38:40 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 20:38:40 INFO  PessoaProfissaoEntry:71 - CONSULTA:  Where flg_principal  =  true
+08-05-2017 20:38:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 20:38:40 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@834bfe3e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@63b8d3aa [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1t1nav516wtypd|15daf270, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@dfd4a27d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1t1nav516wtypd|2780b976, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1t1nav516wtypd|2458007d, numHelperThreads -> 3 ]
+08-05-2017 20:57:11 INFO  Main:46 - Instanciando contexto...
+08-05-2017 20:57:11 INFO  Main:51 - Instanciando servidor...
+08-05-2017 20:57:11 INFO  Main:60 - Instanciando banco de dados...
+08-05-2017 20:57:11 INFO  DBConnection:141 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 20:57:11 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 20:57:11 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 20:57:11 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 20:57:16 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 20:57:16 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 20:57:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 20:57:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 20:57:17 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 20:57:17 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 20:57:18 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 20:57:18 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 20:57:18 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 20:57:18 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 20:57:18 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 20:57:18 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 20:57:18 INFO  PessoaProfissaoEntry:76 - CONSULTA:  Where flg_principal  =  trueprofissao_id  =  267 AND 
+08-05-2017 20:57:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 20:57:18 ERROR ErrorCounter:60 - line 1:96: unexpected token: profissao_id
+08-05-2017 20:57:18 ERROR ErrorCounter:55 - line 1:96: unexpected token: profissao_id
+line 1:96: unexpected token: profissao_id
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:784)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:316)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:283)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:141)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:115)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:546)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:655)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.ifrs.restinga.restinga_servicos.db.GenericList.list(GenericList.java:96)
+	at com.ifrs.restinga.restinga_servicos.db.GenericDAO.listDAO(GenericDAO.java:97)
+	at com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry.listPessoaProfissionalByProfissaoPrincipal(PessoaProfissaoEntry.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:151)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:171)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:152)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:104)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:406)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:350)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:106)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:259)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:320)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:236)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1028)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:373)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:219)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:769)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1125)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1059)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:248)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:745)
+08-05-2017 20:57:18 ERROR PessoaProfissaoEntry:83 - org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: profissao_id near line 1, column 96 [from com.ifrs.restinga.restinga_servicos.classes.Pessoa_profissao c Where flg_principal  =   ?1profissao_id  =   ?2 AND ]
+08-05-2017 21:01:03 INFO  Main:46 - Instanciando contexto...
+08-05-2017 21:01:03 INFO  Main:51 - Instanciando servidor...
+08-05-2017 21:01:03 INFO  Main:60 - Instanciando banco de dados...
+08-05-2017 21:01:03 INFO  DBConnection:141 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 21:01:03 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 21:01:04 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 21:01:04 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 21:01:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 21:01:28 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 21:01:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 21:01:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 21:01:29 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 21:01:29 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 21:01:30 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 21:01:30 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 21:01:30 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 21:01:30 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 21:01:30 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 21:01:30 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 21:01:30 INFO  PessoaProfissaoEntry:76 - CONSULTA:  Where flg_principal  =  true AND profissao_id  =  267 AND 
+08-05-2017 21:01:30 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 21:01:30 ERROR ErrorCounter:60 - line 1:126: unexpected token: null
+08-05-2017 21:01:30 ERROR ErrorCounter:55 - line 1:126: unexpected token: null
+line 1:126: unexpected token: null
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2531)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2445)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2400)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2113)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1891)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:495)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:751)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:316)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:283)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:141)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:115)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153)
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:546)
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:655)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23)
+	at com.ifrs.restinga.restinga_servicos.db.GenericList.list(GenericList.java:96)
+	at com.ifrs.restinga.restinga_servicos.db.GenericDAO.listDAO(GenericDAO.java:97)
+	at com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry.listPessoaProfissionalByProfissaoPrincipal(PessoaProfissaoEntry.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:151)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:171)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:152)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:104)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:406)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:350)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:106)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:259)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:320)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:236)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1028)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:373)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:219)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:769)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1125)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1059)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:248)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:745)
+08-05-2017 21:01:30 ERROR PessoaProfissaoEntry:83 - org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: null near line 1, column 126 [from com.ifrs.restinga.restinga_servicos.classes.Pessoa_profissao c Where flg_principal  =   ?1 AND profissao_id  =   ?2 AND ]
+08-05-2017 21:18:09 INFO  Main:46 - Instanciando contexto...
+08-05-2017 21:18:09 INFO  Main:51 - Instanciando servidor...
+08-05-2017 21:18:09 INFO  Main:60 - Instanciando banco de dados...
+08-05-2017 21:18:10 INFO  DBConnection:141 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 21:18:10 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 21:18:10 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 21:18:10 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 21:18:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 21:18:21 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 21:18:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 21:18:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 21:18:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 21:18:21 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 21:18:22 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 21:18:22 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 21:18:22 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 21:18:22 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 21:18:23 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 21:18:23 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 21:18:23 INFO  PessoaProfissaoEntry:76 - CONSULTA:  Where flg_principal  =  true AND profissao_id  =  267
+08-05-2017 21:18:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 21:18:23 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@773293e [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@aa4b7f16 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1t32dk658n6iw|420cac86, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7608bbd3 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1t32dk658n6iw|350657f0, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1t32dk658n6iw|2cb21768, numHelperThreads -> 3 ]
+08-05-2017 21:18:40 INFO  PessoaProfissaoEntry:76 - CONSULTA:  Where flg_principal  =  true AND profissao_id  =  1
+08-05-2017 21:20:23 INFO  PessoaProfissaoEntry:44 - CONSULTA:  Where profissao_id  =  267
+08-05-2017 21:20:40 INFO  PessoaProfissaoEntry:130 - Cliente executando metodo (list())
+08-05-2017 21:20:40 INFO  PessoaProfissaoEntry:131 - retornando resultados (limit 1000):
+08-05-2017 21:21:57 INFO  PessoaProfissaoEntry:44 - CONSULTA:  Where profissao_id  =  319
+08-05-2017 21:24:55 INFO  ServicoPrestadoEntry:97 - Cliente executando o método telaApresentacao().
+08-05-2017 21:24:59 INFO  ServicoPrestadoEntry:130 - Cliente executando metodo (list())
+08-05-2017 21:24:59 INFO  ServicoPrestadoEntry:131 - retornando resultados (limit 1000):
+08-05-2017 21:25:05 INFO  ServicoPrestadoEntry:107 - Cliente executando metodo (get(int id))
+08-05-2017 21:25:05 INFO  ServicoPrestadoEntry:108 - retornando resultados:
+08-05-2017 21:25:14 INFO  ServicoPrestadoEntry:130 - Cliente executando metodo (list())
+08-05-2017 21:25:14 INFO  ServicoPrestadoEntry:131 - retornando resultados (limit 1000):
+08-05-2017 21:25:34 INFO  ServicoPrestadoEntry:44 - CONSULTA:  Where pessoa_contratada_id  =  4
+08-05-2017 21:25:49 INFO  ServicoPrestadoEntry:44 - CONSULTA:  Where pessoa_contratada_id  =  3
+08-05-2017 21:26:36 INFO  ServicoPrestadoEntry:74 - CONSULTA:  Where pessoa_contratada_id  =  3 order by data_termino
+08-05-2017 21:26:43 INFO  ServicoPrestadoEntry:74 - CONSULTA:  Where pessoa_contratada_id  =  4 order by data_termino
+08-05-2017 21:27:08 INFO  ProfissaoEntry:97 - Cliente executando o método telaApresentacao().
+08-05-2017 21:27:12 INFO  ProfissaoEntry:97 - Cliente executando o método telaApresentacao().
+08-05-2017 21:27:22 INFO  ProfissaoEntry:107 - Cliente executando metodo (get(int id))
+08-05-2017 21:27:22 INFO  ProfissaoEntry:108 - retornando resultados:
+08-05-2017 21:27:25 INFO  ProfissaoEntry:107 - Cliente executando metodo (get(int id))
+08-05-2017 21:27:25 INFO  ProfissaoEntry:108 - retornando resultados:
+08-05-2017 21:27:25 ERROR ProfissaoEntry:115 - No entity found for query
+08-05-2017 21:27:30 INFO  ProfissaoEntry:130 - Cliente executando metodo (list())
+08-05-2017 21:27:30 INFO  ProfissaoEntry:131 - retornando resultados (limit 1000):
+08-05-2017 21:28:54 INFO  ProfissaoEntry:107 - Cliente executando metodo (get(int id))
+08-05-2017 21:28:54 INFO  ProfissaoEntry:108 - retornando resultados:
+08-05-2017 21:29:15 INFO  ProfissaoEntry:61 - CONSULTA:  Where subarea_id  =  132
+08-05-2017 21:33:06 INFO  Main:46 - Instanciando contexto...
+08-05-2017 21:33:06 INFO  Main:51 - Instanciando servidor...
+08-05-2017 21:33:06 INFO  Main:60 - Instanciando banco de dados...
+08-05-2017 21:33:06 INFO  DBConnection:141 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 21:33:06 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 21:33:06 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 21:33:06 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 21:33:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 21:33:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 21:33:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 21:33:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 21:33:17 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 21:33:17 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 21:33:19 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 21:33:19 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 21:33:19 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 21:33:19 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 21:33:19 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 21:33:19 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 21:33:19 INFO  PessoaEntry:130 - Cliente executando metodo (list())
+08-05-2017 21:33:19 INFO  PessoaEntry:131 - retornando resultados (limit 1000):
+08-05-2017 21:33:19 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 21:33:19 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f7df63a2 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@15d32a84 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1t3ll69bmmla7|cf0d618, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@87559c92 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1t3ll69bmmla7|1c53ab1b, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1t3ll69bmmla7|5fcea34a, numHelperThreads -> 3 ]
+08-05-2017 21:34:12 INFO  PessoaEntry:107 - Cliente executando metodo (get(int id))
+08-05-2017 21:34:12 INFO  PessoaEntry:108 - retornando resultados:
+08-05-2017 21:34:12 ERROR PessoaEntry:115 - No entity found for query
+08-05-2017 21:34:16 INFO  PessoaEntry:107 - Cliente executando metodo (get(int id))
+08-05-2017 21:34:16 INFO  PessoaEntry:108 - retornando resultados:
+08-05-2017 21:58:36 INFO  Main:46 - Instanciando contexto...
+08-05-2017 21:58:36 INFO  Main:51 - Instanciando servidor...
+08-05-2017 21:58:36 INFO  Main:60 - Instanciando banco de dados...
+08-05-2017 21:58:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 21:58:36 INFO  Main:63 - Definindo parametros de inicializacao:
+08-05-2017 21:58:36 INFO  Main:73 - com.ifrs.restinga.restinga_servicos.entries.EntryPoint;com.ifrs.restinga.restinga_servicos.entries.EmailEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoSubAreaEntry;com.ifrs.restinga.restinga_servicos.entries.ProfissaoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaEntry;com.ifrs.restinga.restinga_servicos.entries.CidadeEntry;com.ifrs.restinga.restinga_servicos.entries.BairroEntry;com.ifrs.restinga.restinga_servicos.entries.LogradouroEntry;com.ifrs.restinga.restinga_servicos.entries.NotaEntry;com.ifrs.restinga.restinga_servicos.entries.UsuarioEntry;com.ifrs.restinga.restinga_servicos.entries.ContatoTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaTipoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaContatoEntry;com.ifrs.restinga.restinga_servicos.entries.ChatEntry;com.ifrs.restinga.restinga_servicos.entries.ServicoPrestadoEntry;com.ifrs.restinga.restinga_servicos.entries.PessoaProfissaoEntry;
+08-05-2017 21:58:36 INFO  Main:79 - Iniciando servidor rest jetty...
+08-05-2017 21:58:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 21:58:50 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 21:58:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 21:58:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 21:58:51 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 21:58:51 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 21:58:52 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 21:58:52 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 21:58:52 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 21:58:52 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 21:58:52 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 21:58:52 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 21:58:52 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 21:58:52 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@69aba8a8 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d885a68b [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1t4ig5sni5wdu|315be71e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8947aa3 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1t4ig5sni5wdu|2aba6a22, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1t4ig5sni5wdu|2dbe1c5b, numHelperThreads -> 3 ]
+08-05-2017 22:39:02 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+08-05-2017 22:39:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+08-05-2017 22:39:18 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+08-05-2017 22:39:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+08-05-2017 22:39:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+08-05-2017 22:39:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+08-05-2017 22:39:19 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+08-05-2017 22:39:20 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+08-05-2017 22:39:20 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+08-05-2017 22:39:20 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+08-05-2017 22:39:20 INFO  MLog:124 - MLog clients using log4j logging.
+08-05-2017 22:39:20 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+08-05-2017 22:39:20 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+08-05-2017 22:39:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+08-05-2017 22:39:21 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a1224506 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e7293abc [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1t5yhsl21k3tw|49331863, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@bc8bb662 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1t5yhsl21k3tw|61499749, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1t5yhsl21k3tw|4a499ddf, numHelperThreads -> 3 ]
+08-05-2017 22:39:50 INFO  ServicoPrestadoEntry:62 - CONSULTA:  Where pessoa_contratada_id  =  3
+08-05-2017 22:39:56 INFO  ServicoPrestadoEntry:62 - CONSULTA:  Where pessoa_contratada_id  =  4
+08-05-2017 22:40:22 INFO  ServicoPrestadoEntry:92 - CONSULTA:  Where pessoa_contratada_id  =  4 order by data_termino
+08-05-2017 22:40:39 INFO  ServicoPrestadoEntry:92 - CONSULTA:  Where pessoa_contratada_id  =  3 order by data_termino
+08-05-2017 22:40:42 INFO  ServicoPrestadoEntry:92 - CONSULTA:  Where pessoa_contratada_id  =  2 order by data_termino
+08-05-2017 22:41:51 INFO  PessoaProfissaoEntry:62 - CONSULTA:  Where profissao_id  =  319
+08-05-2017 22:42:00 INFO  PessoaProfissaoEntry:62 - CONSULTA:  Where profissao_id  =  5
+08-05-2017 22:42:14 INFO  PessoaProfissaoEntry:62 - CONSULTA:  Where profissao_id  =  319
+08-05-2017 22:43:03 INFO  PessoaProfissaoEntry:94 - CONSULTA:  Where flg_principal  =  true AND profissao_id  =  319
+09-05-2017 20:07:06 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:24:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 20:24:21 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 20:24:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 20:24:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 20:24:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 20:24:21 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 20:24:23 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 20:24:23 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 20:24:23 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 20:24:23 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 20:24:23 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 20:24:23 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 20:28:02 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:28:28 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:31:34 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:36:30 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:40:54 ERROR DBConnection:67 - Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-194]
+09-05-2017 20:40:54 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:41:16 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:42:09 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 20:58:16 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 21:04:13 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 21:05:16 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 21:05:16 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 21:05:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 21:05:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 21:05:17 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 21:05:17 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 21:05:18 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 21:05:18 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 21:05:18 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 21:05:18 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 21:05:18 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 21:05:19 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 21:05:19 FATAL EmailEntry:57 - -----------------> chuchubeleza
+09-05-2017 21:08:05 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 21:08:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 21:08:13 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 21:08:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 21:08:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 21:08:13 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 21:08:13 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 21:08:14 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 21:08:14 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 21:08:14 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 21:08:14 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 21:08:15 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 21:08:15 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 21:08:15 FATAL EmailEntry:57 - -----------------> Artes e Design
+09-05-2017 21:54:51 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 21:59:17 ERROR DBConnection:67 - Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-194]
+09-05-2017 21:59:17 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 21:59:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 21:59:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 21:59:45 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 21:59:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 21:59:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 21:59:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 21:59:46 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 21:59:47 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 21:59:47 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 21:59:47 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 21:59:47 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 21:59:47 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 21:59:47 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 21:59:48 FATAL EmailEntry:57 - -----------------> Artes e Design
+09-05-2017 22:02:57 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:03:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 22:03:06 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 22:03:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 22:03:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 22:03:07 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 22:03:07 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 22:03:08 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 22:03:08 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 22:03:08 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 22:03:08 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 22:03:08 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 22:03:08 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 22:03:09 FATAL EmailEntry:58 - -----------------> Artes e Design
+09-05-2017 22:04:26 FATAL EmailEntry:58 - -----------------> Artes e Design
+09-05-2017 22:05:25 FATAL EmailEntry:58 - -----------------> Artes e Design
+09-05-2017 22:24:21 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:24:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 22:24:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 22:24:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 22:24:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 22:24:32 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 22:24:32 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 22:24:33 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 22:24:33 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 22:24:34 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 22:24:34 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 22:24:34 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 22:24:34 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 22:24:34 ERROR EmailEntry:80 - Usuário inválido!
+09-05-2017 22:30:00 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:32:06 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:32:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 22:32:25 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 22:32:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 22:32:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 22:32:26 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 22:32:26 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 22:32:27 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 22:32:27 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 22:32:27 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 22:32:27 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 22:32:27 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 22:32:27 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 22:42:09 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:42:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 22:42:32 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 22:42:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 22:42:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 22:42:32 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 22:42:32 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 22:42:33 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 22:42:33 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 22:42:33 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 22:42:33 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 22:42:34 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 22:42:34 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 22:42:56 ERROR EmailHelper:125 - MessagingExcepion: Exception reading response
+09-05-2017 22:51:35 ERROR EmailHelper:125 - MessagingExcepion: Exception reading response
+09-05-2017 22:52:46 ERROR EmailHelper:125 - MessagingExcepion: Exception reading response
+09-05-2017 22:53:22 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:53:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 22:53:33 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 22:53:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 22:53:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 22:53:34 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 22:53:34 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 22:53:35 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 22:53:35 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 22:53:35 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 22:53:35 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 22:53:35 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 22:53:35 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 22:53:36 ERROR EmailHelper:127 - MessagingExcepion: Exception reading response
+09-05-2017 22:56:09 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 22:56:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 22:56:24 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 22:56:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 22:56:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 22:56:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 22:56:24 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 22:56:26 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 22:56:26 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 22:56:26 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 22:56:26 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 22:56:26 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 22:56:26 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 22:56:28 ERROR EmailHelper:127 - MessagingExcepion: Exception reading response
+09-05-2017 23:03:27 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:03:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:03:41 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:03:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:03:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:03:41 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:03:41 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:03:42 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:03:42 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:03:42 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:03:42 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:03:42 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:03:43 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:04:05 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+09-05-2017 23:05:15 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:05:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:05:24 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:05:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:05:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:05:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:05:24 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:05:25 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:05:25 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:05:25 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:05:25 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:05:25 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:05:25 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:05:26 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:05:26 WARN  EmailHelper:69 - 587
+09-05-2017 23:05:26 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+09-05-2017 23:05:26 WARN  EmailHelper:71 - cmvo2017restinga
+09-05-2017 23:05:47 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+09-05-2017 23:13:43 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:13:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:13:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:13:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:13:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:13:52 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:13:52 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:13:53 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:13:53 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:13:53 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:13:53 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:13:54 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:13:54 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:13:54 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:13:54 WARN  EmailHelper:69 - 587
+09-05-2017 23:13:54 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+09-05-2017 23:13:54 WARN  EmailHelper:71 - cmvo2017restinga
+09-05-2017 23:14:16 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+09-05-2017 23:14:49 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:14:57 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:14:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:14:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:14:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:14:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:14:57 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:14:59 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:14:59 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:14:59 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:14:59 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:14:59 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:14:59 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:15:00 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:15:00 WARN  EmailHelper:69 - 587
+09-05-2017 23:15:00 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+09-05-2017 23:15:00 WARN  EmailHelper:71 - cmvo2017restinga
+09-05-2017 23:15:21 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+09-05-2017 23:18:43 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:18:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:18:59 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:18:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:18:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:18:59 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:18:59 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:19:00 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:19:00 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:19:00 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:19:01 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:19:01 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:19:01 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:19:01 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:19:01 WARN  EmailHelper:69 - 587
+09-05-2017 23:19:01 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+09-05-2017 23:19:01 WARN  EmailHelper:71 - cmvo2017restinga
+09-05-2017 23:19:23 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+09-05-2017 23:21:02 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:21:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:21:14 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:21:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:21:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:21:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:21:15 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:21:16 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:21:16 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:21:16 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:21:16 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:21:16 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:21:16 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:21:17 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:21:17 WARN  EmailHelper:69 - 587
+09-05-2017 23:21:17 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+09-05-2017 23:21:17 WARN  EmailHelper:71 - cmvo2017restinga
+09-05-2017 23:21:38 ERROR EmailHelper:132 - MessagingExcepion: Could not connect to SMTP host: smtp.gmail.com, port: 25, response: 421
+09-05-2017 23:21:38 ERROR EmailHelper:142 - N?o foi possível email: Erro: Envio Mensagem
+Could not connect to SMTP host: smtp.gmail.com, port: 25, response: 421
+
+(VERIFIQUE O ANTIVÍRUS)
+09-05-2017 23:22:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:22:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:22:51 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:22:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:22:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:22:52 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:22:52 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:22:53 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:22:53 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:22:53 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:22:53 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:22:54 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:22:54 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:22:54 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:22:54 WARN  EmailHelper:69 - 587
+09-05-2017 23:22:54 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+09-05-2017 23:22:54 WARN  EmailHelper:71 - cmvo2017restinga
+09-05-2017 23:22:55 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+09-05-2017 23:26:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+09-05-2017 23:26:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+09-05-2017 23:26:48 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+09-05-2017 23:26:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+09-05-2017 23:26:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09-05-2017 23:26:49 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-05-2017 23:26:49 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+09-05-2017 23:26:50 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+09-05-2017 23:26:50 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+09-05-2017 23:26:50 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+09-05-2017 23:26:50 INFO  MLog:124 - MLog clients using log4j logging.
+09-05-2017 23:26:50 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+09-05-2017 23:26:50 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+09-05-2017 23:26:51 WARN  EmailHelper:68 - smtp.gmail.com
+09-05-2017 23:26:51 WARN  EmailHelper:69 - 587
+09-05-2017 23:26:51 WARN  EmailHelper:70 - EvoeventMail@gmail.com
+09-05-2017 23:26:51 WARN  EmailHelper:71 - *EvoeventMail2016*
+09-05-2017 23:26:52 ERROR EmailHelper:132 - MessagingExcepion: Exception reading response
+10-05-2017 21:09:04 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 21:09:29 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 21:09:29 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 21:09:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 21:09:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 21:09:30 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 21:09:30 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 21:09:31 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 21:09:31 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 21:09:31 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 21:09:31 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 21:09:31 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 21:09:31 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 21:09:32 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 21:09:32 WARN  EmailHelper:69 - 587
+10-05-2017 21:09:32 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 21:09:32 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 21:09:33 ERROR EmailHelper:132 - MessagingExcepion: Could not connect to SMTP host: smtp.gmail.com, port: 587
+10-05-2017 21:09:33 ERROR EmailHelper:142 - N?o foi possível email: Erro: Envio Mensagem
+Could not connect to SMTP host: smtp.gmail.com, port: 587
+
+(VERIFIQUE O ANTIVÍRUS)
+10-05-2017 21:14:46 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 21:15:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 21:15:05 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 21:15:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 21:15:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 21:15:08 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 21:15:09 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 21:15:17 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 21:15:17 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 21:15:17 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 21:15:18 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 21:15:19 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 21:15:19 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 21:15:27 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 21:15:27 WARN  EmailHelper:69 - 465
+10-05-2017 21:15:27 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 21:15:27 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 21:18:41 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 21:18:41 WARN  EmailHelper:69 - 465
+10-05-2017 21:18:41 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 21:18:41 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 21:19:02 ERROR EmailHelper:132 - MessagingExcepion: Could not connect to SMTP host: smtp.gmail.com, port: 465
+10-05-2017 21:19:02 ERROR EmailHelper:142 - N?o foi possível email: Erro: Envio Mensagem
+Could not connect to SMTP host: smtp.gmail.com, port: 465
+
+(VERIFIQUE O ANTIVÍRUS)
+10-05-2017 22:23:16 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:23:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:23:33 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:23:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:23:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:23:34 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:23:34 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:23:35 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:23:35 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:23:35 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:23:35 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:23:35 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:23:35 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:23:36 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:23:36 WARN  EmailHelper:69 - 465
+10-05-2017 22:23:36 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:23:36 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:23:57 ERROR EmailHelper:132 - MessagingExcepion: Could not connect to SMTP host: smtp.gmail.com, port: 465
+10-05-2017 22:23:57 ERROR EmailHelper:142 - N?o foi possível email: Erro: Envio Mensagem
+Could not connect to SMTP host: smtp.gmail.com, port: 465
+
+(VERIFIQUE O ANTIVÍRUS)
+10-05-2017 22:23:58 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@b5247c3 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@995b8a3f [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w09xwq14hzhmq|13571e68, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8cb13e3d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w09xwq14hzhmq|267fd140, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w09xwq14hzhmq|2d7fcdc7, numHelperThreads -> 3 ]
+10-05-2017 22:23:58 WARN  SqlExceptionHelper:129 - SQL Error: 90036, SQLState: 90036
+10-05-2017 22:23:58 ERROR SqlExceptionHelper:131 - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-194]
+10-05-2017 22:23:58 ERROR EmailEntry:53 - SQLEXCEPTION: org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:23:58 ERROR EmailEntry:95 - N?o foi possível inserir o objetido da entidade Usuario
+10-05-2017 22:25:00 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:27:06 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:27:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:27:46 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:27:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:27:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:27:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:27:46 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:27:47 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:27:47 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:27:47 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:27:47 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:27:48 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:27:48 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:27:48 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:27:48 WARN  EmailHelper:69 - 465
+10-05-2017 22:27:48 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:27:48 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:28:10 ERROR EmailHelper:132 - MessagingExcepion: Could not connect to SMTP host: smtp.gmail.com, port: 465
+10-05-2017 22:28:10 ERROR EmailHelper:142 - N?o foi possível email: Erro: Envio Mensagem
+Could not connect to SMTP host: smtp.gmail.com, port: 465
+
+(VERIFIQUE O ANTIVÍRUS)
+10-05-2017 22:28:59 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-05-2017 22:28:59 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@61c7b0ce [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ee0937fc [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w0fckmct097o|25c25d10, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@f2be2290 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w0fckmct097o|20e92271, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w0fckmct097o|7ce2a512, numHelperThreads -> 3 ]
+10-05-2017 22:29:11 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:29:11 WARN  EmailHelper:69 - 465
+10-05-2017 22:29:11 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:29:11 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:29:15 WARN  SqlExceptionHelper:129 - SQL Error: 90036, SQLState: 90036
+10-05-2017 22:29:15 ERROR SqlExceptionHelper:131 - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-194]
+10-05-2017 22:29:15 ERROR EmailEntry:53 - SQLEXCEPTION: org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:29:15 ERROR EmailEntry:95 - org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:30:51 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:30:51 WARN  EmailHelper:69 - 465
+10-05-2017 22:30:51 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:30:51 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:30:54 WARN  SqlExceptionHelper:129 - SQL Error: 90036, SQLState: 90036
+10-05-2017 22:30:54 ERROR SqlExceptionHelper:131 - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-194]
+10-05-2017 22:30:54 ERROR EmailEntry:53 - SQLEXCEPTION: org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:30:54 ERROR EmailEntry:95 - org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:33:02 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:33:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:33:14 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:33:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:33:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:33:14 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:33:14 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:33:15 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:33:15 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:33:15 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:33:15 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:33:15 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:33:15 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:33:16 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:33:16 WARN  EmailHelper:69 - 465
+10-05-2017 22:33:16 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:33:16 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:33:20 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@66e60a92 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d66ef951 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w0mdh51suhkul|282088f5, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@2f31f97 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w0mdh51suhkul|771a5420, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w0mdh51suhkul|3bed43af, numHelperThreads -> 3 ]
+10-05-2017 22:33:20 ERROR EmailEntry:53 - SQLEXCEPTION: org.hibernate.PersistentObjectException: detached entity passed to persist: com.ifrs.restinga.restinga_servicos.classes.Email
+10-05-2017 22:33:20 ERROR EmailEntry:96 - org.hibernate.PersistentObjectException: detached entity passed to persist: com.ifrs.restinga.restinga_servicos.classes.Email
+10-05-2017 22:47:28 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:49:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:49:49 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:49:57 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:49:57 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:49:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:49:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:49:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:49:57 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:49:58 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:49:58 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:49:58 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:49:58 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:49:59 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:49:59 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:49:59 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:49:59 WARN  EmailHelper:69 - 465
+10-05-2017 22:49:59 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:49:59 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:50:03 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-05-2017 22:50:03 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2c307bc6 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@8ced7464 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w17vnn12wbj1q|6c2a5075, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@9e4dbc0 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w17vnn12wbj1q|3a11564, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w17vnn12wbj1q|5b240da1, numHelperThreads -> 3 ]
+10-05-2017 22:55:16 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:55:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:55:53 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:55:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:55:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:55:54 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:55:54 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:55:55 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:55:55 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:55:55 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:55:55 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:55:55 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:55:55 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:55:56 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:55:56 WARN  EmailHelper:69 - 465
+10-05-2017 22:55:56 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:55:56 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:56:00 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@82c6330c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@83c91191 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w1firr1j666uq|27932a3d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@48c9fcef [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w1firr1j666uq|1a1e53fe, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w1firr1j666uq|69477148, numHelperThreads -> 3 ]
+10-05-2017 22:56:00 WARN  SqlExceptionHelper:129 - SQL Error: 90036, SQLState: 90036
+10-05-2017 22:56:00 ERROR SqlExceptionHelper:131 - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-194]
+10-05-2017 22:56:00 ERROR EmailEntry:58 - SQLEXCEPTION: org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:56:00 ERROR EmailEntry:98 - org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:57:03 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:57:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:57:18 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:57:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:57:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:57:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:57:19 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:57:20 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:57:20 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:57:20 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:57:20 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:57:20 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:57:20 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:57:21 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:57:21 WARN  EmailHelper:69 - 465
+10-05-2017 22:57:21 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:57:21 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:58:12 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 22:58:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 22:58:18 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 22:58:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 22:58:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 22:58:18 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 22:58:18 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 22:58:20 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 22:58:20 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 22:58:20 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 22:58:20 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 22:58:20 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 22:58:20 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 22:58:21 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 22:58:21 WARN  EmailHelper:69 - 465
+10-05-2017 22:58:21 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 22:58:21 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 22:58:24 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@69fdf133 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@41cbacb8 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w1imif16hgtsr|3e084a09, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@22f1945b [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w1imif16hgtsr|3da9c7a1, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w1imif16hgtsr|2f5a1d24, numHelperThreads -> 3 ]
+10-05-2017 22:58:24 WARN  SqlExceptionHelper:129 - SQL Error: 90036, SQLState: 90036
+10-05-2017 22:58:24 ERROR SqlExceptionHelper:131 - Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+call next value for hibernate_sequence [90036-194]
+10-05-2017 22:58:24 ERROR EmailEntry:58 - SQLEXCEPTION: org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 22:58:24 ERROR EmailEntry:99 - org.hibernate.exception.GenericJDBCException: could not prepare statement
+10-05-2017 23:01:29 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 23:01:50 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 23:01:57 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 23:01:58 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 23:01:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 23:01:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 23:01:58 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 23:01:58 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 23:01:59 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 23:01:59 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 23:01:59 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 23:01:59 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 23:02:00 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 23:02:00 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 23:02:00 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:02:00 WARN  EmailHelper:69 - 465
+10-05-2017 23:02:00 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:02:00 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 23:02:04 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@fc0f73ba [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e56caf7a [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w1nbwx1bizv3w|52bca8c1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@836f5730 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w1nbwx1bizv3w|3e00fc64, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w1nbwx1bizv3w|1ec2e75c, numHelperThreads -> 3 ]
+10-05-2017 23:02:04 WARN  SqlExceptionHelper:129 - SQL Error: 22001, SQLState: 22001
+10-05-2017 23:02:04 ERROR SqlExceptionHelper:131 - Value too long for column "TOKEN VARCHAR(30) NOT NULL": "'890d4e0d-cb53-401b-81e5-65ed63b45c8f' (36)"; SQL statement:
+insert into email (id, confirmacao, usuario_id, data_expira, token) values (null, ?, ?, ?, ?) [22001-194]
+10-05-2017 23:02:04 ERROR EmailEntry:58 - SQLEXCEPTION: org.hibernate.exception.DataException: could not execute statement
+10-05-2017 23:02:04 ERROR EmailEntry:98 - org.hibernate.exception.DataException: could not execute statement
+10-05-2017 23:04:16 WARN  DBConnection:95 - ARQUIVO DE BANCO DE DADOS N?O ENCONTRADO, OU PARECE ESTAR VAZIO.
+10-05-2017 23:04:16 WARN  DBConnection:96 - GERANDO UM NOVO BANCO DE DADOS... AGUARDE...
+10-05-2017 23:05:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 23:05:06 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 23:05:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 23:05:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 23:05:07 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 23:05:07 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 23:05:08 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 23:05:08 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 23:05:08 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 23:05:08 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 23:05:09 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 23:05:09 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 23:05:10 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:05:10 WARN  EmailHelper:69 - 465
+10-05-2017 23:05:10 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:05:10 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 23:05:13 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@907adde6 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@f40297ef [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w1rdqq1vyurtq|3817c829, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@58ed078d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w1rdqq1vyurtq|3192e4be, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w1rdqq1vyurtq|1458eb4a, numHelperThreads -> 3 ]
+10-05-2017 23:05:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-05-2017 23:08:27 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 23:08:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 23:08:48 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 23:08:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 23:08:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 23:08:49 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 23:08:49 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 23:08:50 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 23:08:50 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 23:08:50 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 23:08:50 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 23:08:50 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 23:08:50 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 23:08:51 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:08:51 WARN  EmailHelper:69 - 465
+10-05-2017 23:08:51 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:08:51 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 23:09:12 ERROR EmailHelper:132 - MessagingExcepion: Could not connect to SMTP host: smtp.gmail.com, port: 465
+10-05-2017 23:09:12 ERROR EmailHelper:142 - N?o foi possível email: Erro: Envio Mensagem
+Could not connect to SMTP host: smtp.gmail.com, port: 465
+
+(VERIFIQUE O ANTIVÍRUS)
+10-05-2017 23:09:30 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:09:30 WARN  EmailHelper:69 - 465
+10-05-2017 23:09:30 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:09:30 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 23:09:33 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@dba33d00 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1255e9ee [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w1w4vacqix10|3c44253, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@2df2613b [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w1w4vacqix10|49c5f3c4, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w1w4vacqix10|5dfed31d, numHelperThreads -> 3 ]
+10-05-2017 23:10:04 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-05-2017 23:11:43 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 23:12:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 23:12:38 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 23:12:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 23:12:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 23:12:38 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 23:12:38 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 23:12:40 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 23:12:40 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 23:12:40 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 23:12:40 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 23:12:40 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 23:12:40 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 23:12:41 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:12:41 WARN  EmailHelper:69 - 465
+10-05-2017 23:12:41 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:12:41 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 23:12:44 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@97e0e171 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@791e19d8 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w2122p2mv3nd|5a5ae1ca, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@263e2e61 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w2122p2mv3nd|73986015, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w2122p2mv3nd|1bc1fbd2, numHelperThreads -> 3 ]
+10-05-2017 23:12:58 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-05-2017 23:13:50 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:13:50 WARN  EmailHelper:69 - 465
+10-05-2017 23:13:50 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:13:50 WARN  EmailHelper:71 - cmvo2017restinga
+10-05-2017 23:13:53 WARN  SqlExceptionHelper:129 - SQL Error: 23506, SQLState: 23506
+10-05-2017 23:13:53 ERROR SqlExceptionHelper:131 - Referential integrity constraint violation: "CONSTRAINT_3F: PUBLIC.EMAIL FOREIGN KEY(USUARIO_ID) REFERENCES PUBLIC.USUARIO(ID) (555)"; SQL statement:
+insert into email (id, confirmacao, usuario_id, data_expira, token) values (null, ?, ?, ?, ?) [23506-194]
+10-05-2017 23:13:53 ERROR EmailEntry:58 - SQLEXCEPTION: org.hibernate.exception.ConstraintViolationException: could not execute statement
+10-05-2017 23:13:53 ERROR EmailEntry:98 - org.hibernate.exception.ConstraintViolationException: could not execute statement
+10-05-2017 23:16:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+10-05-2017 23:16:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+10-05-2017 23:17:00 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+10-05-2017 23:17:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+10-05-2017 23:17:00 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+10-05-2017 23:17:00 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10-05-2017 23:17:00 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+10-05-2017 23:17:01 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+10-05-2017 23:17:01 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+10-05-2017 23:17:01 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+10-05-2017 23:17:01 INFO  MLog:124 - MLog clients using log4j logging.
+10-05-2017 23:17:01 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+10-05-2017 23:17:02 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+10-05-2017 23:17:02 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6cd30cee [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@c8e0152e [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w26nvq6g3oug|6dd0f27, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@472966ff [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w26nvq6g3oug|14c65c62, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w26nvq6g3oug|6e600db6, numHelperThreads -> 3 ]
+10-05-2017 23:17:02 WARN  SqlExceptionHelper:129 - SQL Error: 23506, SQLState: 23506
+10-05-2017 23:17:02 ERROR SqlExceptionHelper:131 - Referential integrity constraint violation: "CONSTRAINT_3F: PUBLIC.EMAIL FOREIGN KEY(USUARIO_ID) REFERENCES PUBLIC.USUARIO(ID) (555)"; SQL statement:
+insert into email (id, confirmacao, usuario_id, data_expira, token) values (null, ?, ?, ?, ?) [23506-194]
+10-05-2017 23:17:02 ERROR EmailEntry:58 - SQLEXCEPTION: org.hibernate.exception.ConstraintViolationException: could not execute statement
+10-05-2017 23:17:02 ERROR EmailEntry:96 - org.hibernate.exception.ConstraintViolationException: could not execute statement
+10-05-2017 23:17:20 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-05-2017 23:17:35 WARN  SqlExceptionHelper:129 - SQL Error: 23506, SQLState: 23506
+10-05-2017 23:17:35 ERROR SqlExceptionHelper:131 - Referential integrity constraint violation: "CONSTRAINT_3F: PUBLIC.EMAIL FOREIGN KEY(USUARIO_ID) REFERENCES PUBLIC.USUARIO(ID) (4)"; SQL statement:
+insert into email (id, confirmacao, usuario_id, data_expira, token) values (null, ?, ?, ?, ?) [23506-194]
+10-05-2017 23:17:35 ERROR EmailEntry:58 - SQLEXCEPTION: org.hibernate.exception.ConstraintViolationException: could not execute statement
+10-05-2017 23:17:35 ERROR EmailEntry:96 - org.hibernate.exception.ConstraintViolationException: could not execute statement
+10-05-2017 23:17:54 WARN  EmailHelper:68 - smtp.gmail.com
+10-05-2017 23:17:54 WARN  EmailHelper:69 - 465
+10-05-2017 23:17:54 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+10-05-2017 23:17:54 WARN  EmailHelper:71 - cmvo2017restinga
+11-05-2017 00:05:38 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:05:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 00:05:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 00:05:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 00:05:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 00:05:50 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 00:05:50 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 00:05:51 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 00:05:51 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 00:05:51 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 00:05:51 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 00:05:52 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 00:05:52 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 00:05:53 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5f54b52a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@4c26193d [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w3xgoa1q8r504|24436b9e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@86a3ea6f [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w3xgoa1q8r504|103d3b08, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w3xgoa1q8r504|35c07ce6, numHelperThreads -> 3 ]
+11-05-2017 00:05:53 WARN  EmailHelper:68 - smtp.gmail.com
+11-05-2017 00:05:53 WARN  EmailHelper:69 - 465
+11-05-2017 00:05:53 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+11-05-2017 00:05:53 WARN  EmailHelper:71 - cmvo2017restinga
+11-05-2017 00:06:41 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 00:07:51 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:08:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 00:08:01 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 00:08:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 00:08:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 00:08:01 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 00:08:01 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 00:08:03 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 00:08:03 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 00:08:03 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 00:08:03 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 00:08:03 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 00:08:03 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 00:08:04 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@105958ac [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@3e5ae88c [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w40a1q1iz2tvz|66a9eac1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@9e5e5c46 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w40a1q1iz2tvz|69b3585f, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w40a1q1iz2tvz|25aefabb, numHelperThreads -> 3 ]
+11-05-2017 00:08:04 WARN  EmailHelper:68 - smtp.gmail.com
+11-05-2017 00:08:04 WARN  EmailHelper:69 - 465
+11-05-2017 00:08:04 WARN  EmailHelper:70 - restingaservicoscontato@gmail.com
+11-05-2017 00:08:04 WARN  EmailHelper:71 - cmvo2017restinga
+11-05-2017 00:08:07 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 00:16:47 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:18:12 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:18:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 00:18:23 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 00:18:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 00:18:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 00:18:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 00:18:24 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 00:18:25 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 00:18:25 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 00:18:25 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 00:18:25 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 00:18:25 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 00:18:25 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 00:18:25 INFO  EmailEntry:143 - CONSULTA:  Where token  =  hweeheh AND data_expira  >=  Thu May 11 00:18:25 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:18:25 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 00:18:26 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c51026e9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1d93d2f2 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w4dm83mtyy5r|a8b90e8, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@24f4545a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w4dm83mtyy5r|276b7c55, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w4dm83mtyy5r|6168f788, numHelperThreads -> 3 ]
+11-05-2017 00:18:26 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:18:26 ERROR EmailEntry:159 - No entity found for query
+11-05-2017 00:19:47 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 00:19:47 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:20:11 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc819 AND data_expira  >=  Thu May 11 00:20:11 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:20:11 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:20:11 ERROR EmailEntry:159 - No entity found for query
+11-05-2017 00:20:17 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0e8cd7d8-d96d-4fe0-be48-8dcda821687d AND data_expira  >=  Thu May 11 00:20:17 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:20:17 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:20:17 ERROR EmailEntry:159 - No entity found for query
+11-05-2017 00:20:34 INFO  EmailEntry:143 - CONSULTA:  Where token  =  4c91bfac-fc0d-4719-8440-a976a794948b AND data_expira  >=  Thu May 11 00:20:34 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:20:34 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:20:34 ERROR EmailEntry:159 - No entity found for query
+11-05-2017 00:20:48 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 00:20:48 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:21:28 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 00:21:28 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:21:51 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:22:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 00:22:01 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 00:22:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 00:22:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 00:22:01 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 00:22:01 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 00:22:02 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 00:22:02 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 00:22:02 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 00:22:02 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 00:22:03 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 00:22:03 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 00:22:03 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 00:22:03 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:22:03 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 00:22:03 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@73d6590a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@55139171 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w4ia0u12kqdyu|5a5ae1ca, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@233a5fa [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w4ia0u12kqdyu|73986015, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w4ia0u12kqdyu|1bc1fbd2, numHelperThreads -> 3 ]
+11-05-2017 00:22:11 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc819 AND data_expira  >=  Thu May 11 00:22:11 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:22:11 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:22:11 ERROR EmailEntry:159 - No entity found for query
+11-05-2017 00:24:08 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:24:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 00:24:15 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 00:24:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 00:24:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 00:24:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 00:24:15 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 00:24:17 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 00:24:17 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 00:24:17 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 00:24:17 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 00:24:17 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 00:24:17 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 00:24:17 INFO  EmailEntry:143 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc819 AND data_expira  >=  Thu May 11 00:24:17 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:24:17 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 00:24:17 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@82b2c4d9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@36fbeb23 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w4l5oq8lfiqt|46416091, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@ffc10396 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w4l5oq8lfiqt|268452bc, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w4l5oq8lfiqt|2ac55eb, numHelperThreads -> 3 ]
+11-05-2017 00:24:18 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:24:18 ERROR EmailEntry:154 - No entity found for query
+11-05-2017 00:55:36 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 00:56:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 00:56:34 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 00:56:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 00:56:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 00:56:35 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 00:56:35 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 00:56:36 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 00:56:36 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 00:56:36 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 00:56:36 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 00:56:37 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 00:56:37 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 00:56:37 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 00:56:37 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@86ba3143 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a43de14b [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w5qq9msi66ib|3c44253, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d909557e [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w5qq9msi66ib|49c5f3c4, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w5qq9msi66ib|5dfed31d, numHelperThreads -> 3 ]
+11-05-2017 00:57:51 INFO  EmailEntry:147 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc819 AND data_expira  >=  Thu May 11 00:57:51 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:57:51 ERROR EmailEntry:168 - A senha muito curta, digite pelo menos 10 caracteres.
+11-05-2017 00:58:05 INFO  EmailEntry:147 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc819 AND data_expira  >=  Thu May 11 00:58:05 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:58:05 ERROR EmailEntry:101 - SQLEXCEPTION: No entity found for query
+11-05-2017 00:58:05 ERROR EmailEntry:168 - No entity found for query
+11-05-2017 00:58:19 INFO  EmailEntry:147 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 00:58:19 BRT 2017 AND confirmacao  =  false
+11-05-2017 00:58:19 ERROR EmailEntry:168 - 2017-05-12 00:08:04.112
+11-05-2017 01:01:28 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 01:01:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 01:01:34 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 01:01:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 01:01:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 01:01:35 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 01:01:35 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 01:01:36 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 01:01:36 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 01:01:36 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 01:01:36 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 01:01:36 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 01:01:36 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 01:01:36 INFO  EmailEntry:147 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 01:01:36 BRT 2017 AND confirmacao  =  false
+11-05-2017 01:01:36 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 01:01:37 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@2272ca48 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@883b93a6 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w5x5i511uszsb|3c44253, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@74c1ee83 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w5x5i511uszsb|49c5f3c4, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w5x5i511uszsb|5dfed31d, numHelperThreads -> 3 ]
+11-05-2017 01:01:37 ERROR EmailEntry:169 - 2017-05-12 00:08:04.112
+11-05-2017 01:04:55 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 01:05:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 01:05:03 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 01:05:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 01:05:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 01:05:04 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 01:05:04 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 01:05:05 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 01:05:05 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 01:05:05 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 01:05:05 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 01:05:05 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 01:05:06 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 01:05:06 INFO  EmailEntry:147 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 01:05:06 BRT 2017 AND confirmacao  =  false
+11-05-2017 01:05:06 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 01:05:06 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@31756136 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@3af36ba [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w61mxy1nlthki|1d84868, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@17fdaabb [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w61mxy1nlthki|788b18f2, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w61mxy1nlthki|23404549, numHelperThreads -> 3 ]
+11-05-2017 01:05:06 INFO  EmailEntry:156 - -----------> 1
+11-05-2017 01:05:06 ERROR EmailEntry:169 - 2017-05-12 00:08:04.112
+11-05-2017 01:08:12 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 01:08:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 01:08:21 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 01:08:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 01:08:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 01:08:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 01:08:21 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 01:08:23 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 01:08:23 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 01:08:23 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 01:08:23 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 01:08:23 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 01:08:23 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 01:08:23 INFO  EmailEntry:146 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 01:08:23 BRT 2017 AND confirmacao  =  false
+11-05-2017 01:08:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 01:08:23 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@74964166 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1819aa6d [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w65vesobkp4p|49a045d6, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b060dc14 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w65vesobkp4p|46ceed74, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w65vesobkp4p|39fd3926, numHelperThreads -> 3 ]
+11-05-2017 01:22:41 INFO  DBConnection:148 - Banco de dados encontrado, prosseguindo execuç?o..
+11-05-2017 01:23:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU
+	...]
+11-05-2017 01:23:48 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+11-05-2017 01:23:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+11-05-2017 01:23:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11-05-2017 01:23:53 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+11-05-2017 01:23:53 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+11-05-2017 01:24:00 INFO  C3P0ConnectionProvider:117 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:./src/main/resources/db/restingaservicos
+11-05-2017 01:24:00 INFO  C3P0ConnectionProvider:118 - HHH10001001: Connection properties: {user=root, password=****}
+11-05-2017 01:24:00 INFO  C3P0ConnectionProvider:121 - HHH10001003: Autocommit mode: false
+11-05-2017 01:24:00 INFO  MLog:124 - MLog clients using log4j logging.
+11-05-2017 01:24:02 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+11-05-2017 01:24:02 INFO  C3P0ConnectionProvider:201 - HHH10001007: JDBC isolation level: <unknown>
+11-05-2017 01:24:03 INFO  EmailEntry:146 - CONSULTA:  Where token  =  0ca8cb1d-453b-4a6c-a94c-bf34e4cc8197 AND data_expira  >=  Thu May 11 01:24:03 BRT 2017 AND confirmacao  =  false
+11-05-2017 01:24:03 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+11-05-2017 01:24:04 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8b4a6cfc [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@781bd10f [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby99n1w6pzcb1um3lw1|24436b9e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b299a241 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby99n1w6pzcb1um3lw1|103d3b08, jdbcUrl -> jdbc:h2:./src/main/resources/db/restingaservicos, properties -> {user=******, password=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby99n1w6pzcb1um3lw1|35c07ce6, numHelperThreads -> 3 ]
