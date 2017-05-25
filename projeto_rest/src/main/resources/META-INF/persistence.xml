@@ -4,6 +4,7 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="com.ifrs.restinga.restinga_servicos_projeto_rest_serverPU" transaction-type="RESOURCE_LOCAL">
         <shared-cache-mode>NONE</shared-cache-mode>
+        
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:h2:./src/main/resources/db/restingaservicos"/>
       <property name="javax.persistence.jdbc.user" value="root"/>

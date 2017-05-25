@@ -34,16 +34,6 @@ import javax.persistence.Table;
 public class Contato_tipo extends Entidade {
 
     private String nomeTipoContato;
-    
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNomeTipoContato() {
         return nomeTipoContato;

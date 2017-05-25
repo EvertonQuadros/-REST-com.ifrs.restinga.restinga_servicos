@@ -23,6 +23,7 @@
 package com.ifrs.restinga.restinga_servicos.classes;
 
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 
 /**
@@ -34,17 +35,9 @@ import javax.persistence.Table;
 public class Nota extends Entidade {
 
     private int valor;
-    private String imagem;
     
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
+    @Lob
+    private String imagem;
 
     public int getValor() {
         return valor;

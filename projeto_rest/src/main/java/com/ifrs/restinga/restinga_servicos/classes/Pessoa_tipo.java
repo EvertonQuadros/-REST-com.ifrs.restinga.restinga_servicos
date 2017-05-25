@@ -34,16 +34,6 @@ import javax.persistence.Table;
 public class Pessoa_tipo extends Entidade {
 
     private String nomeTipoPessoa;
-    
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNomeTipoPessoa() {
         return nomeTipoPessoa;

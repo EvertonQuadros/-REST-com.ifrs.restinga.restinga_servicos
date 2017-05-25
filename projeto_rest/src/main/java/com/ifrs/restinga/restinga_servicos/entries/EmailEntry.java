@@ -22,13 +22,14 @@
  */
 package com.ifrs.restinga.restinga_servicos.entries;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import com.ifrs.restinga.restinga_servicos.classes.Consulta;
 import com.ifrs.restinga.restinga_servicos.classes.Email;
 import com.ifrs.restinga.restinga_servicos.classes.Usuario;
 import com.ifrs.restinga.restinga_servicos.utils.EmailHelper;
-
-import java.time.Instant;
+import com.ifrs.restinga.restinga_servicos.utils.Utils;
 
 import java.util.Date;
 import java.util.UUID;
@@ -39,6 +40,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -71,11 +73,8 @@ public class EmailEntry extends EntryPoint{
                 Email email = new Email();
                 email.setConfirmacao(false);
                 email.setConta(usuario);
-                
-                Instant instant = new Date().toInstant().plusSeconds(86400);
-                Date data = Date.from(instant);
-                
-                email.setData_expira(data);
+     
+                email.setData_expira(Utils.General.getDataExpira());
                 email.setToken(UUID.randomUUID().toString());
 
                 try{
@@ -147,17 +146,16 @@ public class EmailEntry extends EntryPoint{
    
         try {
             
+            //criar classe validator da utils para validar este campo.
             if(pass.length() < 10){
                 throw new IllegalArgumentException("A senha muito curta, digite pelo menos 10 caracteres.");
             }
             
-            //provisório.
-            //JSONObject obj = genericDAO.getDAO(consulta);
-            Email email = (Email)genericDAO.getObjectDAO(consulta);
-            
-           // ObjectMapper mapper = new ObjectMapper();
-           // Email email = mapper.readValue(obj.toString(), Email.class); //erro aqui
-            
+            JSONObject obj = genericDAO.getDAO(consulta);
+
+            Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss.SSS").create();
+  
+            Email email =  gson.fromJson(obj.toString(), Email.class);
             email.setConfirmacao(true); 
             genericDAO.UpdateDAO(email);
             
@@ -168,11 +166,17 @@ public class EmailEntry extends EntryPoint{
         } 
         catch (Exception ex) {
             
-            getLOGGER().error(ex.getMessage());
+            String message = ex.getMessage();
+            
+            if(ex.getMessage().contains("No entity found")){
+                message = "Token invalido.";
+            }
+            
+            getLOGGER().error(message);
             return Response.status(Response.Status.INTERNAL_SERVER_ERROR)
                     .type("text/html")
                     .entity(Response.Status.INTERNAL_SERVER_ERROR 
-                            + " : ".concat(ex.getMessage())).build();
+                            + " : ".concat(message)).build();
         
         }
         

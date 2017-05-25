@@ -35,6 +35,7 @@ import javax.persistence.Table;
 @Table(name = "usuario")
 public class Usuario extends Entidade {
 
+    private String login;
     private String email;
     private String senha;
     
@@ -42,14 +43,12 @@ public class Usuario extends Entidade {
     @JoinColumn(name = "pessoa_id")
     private Pessoa usuario;
 
-    @Override
-    public int getId() {
-        return id;
+    public String getLogin() {
+        return login;
     }
 
-    @Override
-    public void setId(int id) {
-        this.id = id;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getEmail() {

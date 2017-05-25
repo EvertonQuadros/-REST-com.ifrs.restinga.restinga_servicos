@@ -23,6 +23,9 @@
 package com.ifrs.restinga.restinga_servicos;
 
 import com.ifrs.restinga.restinga_servicos.db.DBConnection;
+
+import com.ifrs.restinga.restinga_servicos.jwt.JWTSecretKey;
+
 import com.ifrs.restinga.restinga_servicos.utils.Utils;
 
 import java.util.List;
@@ -30,38 +33,42 @@ import java.util.List;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
 import org.eclipse.jetty.server.Server;
+
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
 import org.apache.log4j.Logger;
 
-public class Main {
 
+public class Main {
+    
     private final static Logger LOGGER = Logger.getLogger(Main.class);
     private static final PropertiesConfiguration CONFIG 
-            = Utils.Configurations.getConfiguration();
+            = Utils.Configurations.getConfiguration("config.properties");
     
     public static void main(String[] args) throws Exception {
-
+        
+        JWTSecretKey.JWTSecretKeyManager.GenerateSecretKey();
+        
         LOGGER.debug("Instanciando contexto...");
         ServletContextHandler context 
                 = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath("/");
 
         LOGGER.debug("Instanciando servidor...");
-        Server jettyServer = new Server(8080);
+        Server jettyServer = new Server(CONFIG.getInt("jersey.port"));
         jettyServer.setHandler(context);
-
+        
         ServletHolder jerseyServlet
                 = context.addServlet(org.glassfish.jersey.servlet.ServletContainer.class, "/*");
-
+        
         jerseyServlet.setInitOrder(0);
         
         LOGGER.debug("Instanciando banco de dados...");
         DBConnection.startDB(CONFIG);
 
         LOGGER.debug("Definindo parametros de inicializacao:");
-        List<Object> classes = CONFIG.getList("entrypoint.classes");
+        List<Object> classes = CONFIG.getList("rest.classes");
         
         StringBuilder entrypoints = new StringBuilder();
         
@@ -71,7 +78,7 @@ public class Main {
         
         LOGGER.debug(entrypoints.toString());
         jerseyServlet.setInitParameter("jersey.config.server.provider.classnames" ,entrypoints.toString());
-
+        //context.addFilter(JWTTokenFilter.class, "/*", EnumSet.of(DispatcherType.REQUEST));
         try {
 
             LOGGER.debug("Iniciando servidor rest jetty...");

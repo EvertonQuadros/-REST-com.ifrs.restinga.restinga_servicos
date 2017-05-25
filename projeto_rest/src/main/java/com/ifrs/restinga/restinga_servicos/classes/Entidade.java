@@ -34,14 +34,18 @@ import javax.persistence.MappedSuperclass;
  * @author not275ssd
  */
 @MappedSuperclass
-public abstract class Entidade implements Serializable{
+public class Entidade implements Serializable{
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected int id;
 
-    public abstract int getId();
+    public int getId(){
+        return id;
+    }
 
-    public abstract void setId(int id);
+    public void setId(int id){
+        this.id = id;
+    }
     
 }

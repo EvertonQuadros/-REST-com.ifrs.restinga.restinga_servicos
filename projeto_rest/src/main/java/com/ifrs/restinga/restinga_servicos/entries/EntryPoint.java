@@ -23,55 +23,67 @@
 package com.ifrs.restinga.restinga_servicos.entries;
 
 import com.ifrs.restinga.restinga_servicos.classes.Entidade;
+
 import com.ifrs.restinga.restinga_servicos.db.GenericDAO;
+
+import com.ifrs.restinga.restinga_servicos.utils.Utils;
 
 import java.net.URISyntaxException;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.Produces;
+
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import org.apache.commons.configuration.PropertiesConfiguration;
+
 import org.apache.log4j.Logger;
-
-//TODO Adicionar novos métodos criados para inserç?o,delete e update como sobrescrita no email (forbidden).
-
-//Endereço (localhost): http://localhost:8080/entry-point/restingaservicos
 
 /**
  *
  * @author not275ssd
  * @param <T>
  */
+//Endereço (localhost): http://localhost:8080/entry-point/restingaservicos
 //@Path("/entry-point/restingaservicos") 
-public class EntryPoint<T> {
-
+public class EntryPoint<T extends Entidade> {
+    
     private final Logger LOGGER;
     private final String url;
+    private static final PropertiesConfiguration CONFIG 
+            = Utils.Configurations.getConfiguration("config.properties");
     protected GenericDAO genericDAO;
-    
+    private Class<T> tipo;
+   
     /**
      *
      * @param tipo
      * @param subTipo
      * @param url
      */
-    public EntryPoint(Class<T> tipo, Class<? extends Entidade> subTipo, String url){
+    public EntryPoint(Class<T> tipo, Class<T> subTipo, String url){
         
         this.LOGGER = Logger.getLogger(tipo);
             this.url = url;
                 this.genericDAO = new GenericDAO(LOGGER,subTipo);
-            
+                    this.tipo = subTipo;
+                    
     }
     
     public EntryPoint(){
         
         this.LOGGER = Logger.getLogger(EntryPoint.class);
-            this.url = "/entry-point/restingaservicos";
+            this.url = CONFIG.getString("jersey.main");
             
     }
-
+    
     public Logger getLOGGER() {
         return LOGGER;
     }
@@ -145,161 +157,130 @@ public class EntryPoint<T> {
         
     }
     
-//    @POST
-//    @Path("/")
-//    @Consumes("application/json")
-//    public Response inserePessoa(Pessoa pessoa) throws SQLException {
-//
-//        LOGGER.info("Cliente executando metodo (inserePessoa())");
-//        LOGGER.info("Abrindo conexao com o banco de dados...");
-//        connection = getDBConnection();
-//        String result = "";
-//
-//        if (!pessoa.getNome().equals("")) {
-//
-//            try {
-//
-//                connection.setAutoCommit(false);
-//
-//                preparedStatement = null;
-//                String InsertQuery = "INSERT INTO Pessoas" + "(nome) values" + "(?)";
-//
-//                LOGGER.info("Gerando insercao no banco de dados...");
-//
-//                preparedStatement = connection.prepareStatement(InsertQuery);
-//                preparedStatement.setString(1, pessoa.getNome());
-//                preparedStatement.executeUpdate();
-//                preparedStatement.close();
-//
-//                connection.commit();
-//
-//                result = pessoa.getNome() + " inserido com sucesso!";
-//                LOGGER.info(result);
-//
-//            } 
-//            catch (SQLException e) {
-//                LOGGER.error("SQLException:" + e.getLocalizedMessage());
-//            } 
-//            catch (Exception e) {
-//                LOGGER.error("Exception:" + mostraStackTrace(e));
-//            } 
-//            finally {
-//
-//                LOGGER.info("Finalizando conexao com o banco de dados...");
-//                connection.close();
-//
-//            }
-//
-//        } 
-//        else {
-//
-//            result = "E necessario informar um valor!";
-//            LOGGER.warn(result);
-//
-//        }
-//
-//        LOGGER.info("Retornando resposta...");
-//        return Response.status(201).entity(result).build();
-//
-//    }
-//
-//    @GET
-//    @Path("/delete/{param}")
-//    @Produces("application/json")
-//    public Response deletaPessoa(@PathParam("param") int id) throws SQLException {
-//
-//        String response = "";
-//        LOGGER.info("Cliente executando metodo (deletaPessoa())");
-//
-//        try {
-//
-//            String InsertQuery = "DELETE FROM Pessoas WHERE id=?";
-//
-//            LOGGER.info("Abrindo conexao com o banco de dados...");
-//            connection = getDBConnection();
-//            preparedStatement = null;
-//
-//            LOGGER.info("Gerando remocao no banco de dados...");
-//
-//            preparedStatement = connection.prepareStatement(InsertQuery);
-//            preparedStatement.setInt(1, id);
-//            response = "" + preparedStatement.executeUpdate();
-//            preparedStatement.close();
-//
-//        } 
-//        catch (SQLException e) {
-//            LOGGER.error("SQLException:" + e.getLocalizedMessage());
-//        } 
-//        catch (Exception e) {
-//            LOGGER.error("Exception:" + mostraStackTrace(e));
-//        } 
-//        finally {
-//
-//            LOGGER.info("Finalizando conexao com o banco de dados...");
-//            connection.close();
-//
-//        }
-//
-//        if (response.equals("1")) {
-//            response = "Registro excluido com sucesso!";
-//        } 
-//        else {
-//            response = "registro nao encontrado!";
-//        }
-//
-//        LOGGER.info("Retornando resposta: " + response);
-//        return Response.status(201).entity(response).build();
-//
-//    }
-//
-//    @POST
-//    @Path("/update/")
-//    @Consumes("application/json")
-//    public Response atualizaPessoa(Pessoa pessoa) throws SQLException {
-//
-//        String result = "";
-//        LOGGER.info("Cliente executando metodo (atualizaPessoa())");
-//
-//        try {
-//
-//            String InsertQuery = "UPDATE Pessoas SET nome = ? where id = ?";
-//
-//            LOGGER.info("Abrindo conexao com o banco de dados...");
-//            connection = getDBConnection();
-//
-//            preparedStatement = null;
-//
-//            LOGGER.info("Gerando update no banco de dados...");
-//            preparedStatement = connection.prepareStatement(InsertQuery);
-//            preparedStatement.setInt(2, pessoa.getId());
-//            preparedStatement.setString(1, pessoa.getNome());
-//            result = "" + preparedStatement.executeUpdate();
-//            preparedStatement.close();
-//
-//        } 
-//        catch (SQLException e) {
-//            LOGGER.error("SQLException:" + e.getLocalizedMessage());
-//        } 
-//        catch (Exception e) {
-//            LOGGER.error("Exception:" + mostraStackTrace(e));
-//        } 
-//        finally {
-//
-//            LOGGER.info("Finalizando conexao com o banco de dados...");
-//            connection.close();
-//
-//        }
-//
-//        if (result.equals("1")) {
-//            result = "Registro atualizado com sucesso!";
-//        } 
-//        else {
-//            result = "registro nao encontrado!";
-//        }
-//
-//        LOGGER.info("Retornando resposta: " + result);
-//        return Response.status(201).entity(result).build();
-//
-//    }
+    @POST
+    @Path("/insert")
+    @Produces(MediaType.TEXT_HTML)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response insert(String entidade){
+        
+        getLOGGER().info("Cliente executando metodo insert(String entidade)");
+        
+        try{
+            
+            if(entidade != null){
+                
+                try{
+                    genericDAO.InsertDAO(Utils.JSON.convertFromJSONString(entidade, tipo));
+                }
+                catch(Exception ex){
+                    throw new IllegalArgumentException(ex.getMessage());
+                }
+            
+            }
+            else{
+                throw new IllegalArgumentException("Entidade invalida!");
+            }
+            
+        }
+        catch(IllegalArgumentException ex){
+            
+            getLOGGER().error(ex.getMessage());
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .type("application/json")
+                    .entity(Response.Status.INTERNAL_SERVER_ERROR 
+                            + " : ".concat(ex.getMessage())).build();
+            
+        }
 
+        return Response.ok(Response.Status.ACCEPTED)
+                    .type("application/json")
+                    .entity(tipo.getSimpleName()
+                            .concat(" : Cadastrada(o) com sucesso!")).build();
+    
+    }
+      
+    @PUT
+    @Path("/update")
+    @Produces(MediaType.TEXT_HTML)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response update(String entidade){
+        
+        getLOGGER().debug("Cliente executando metodo update(String entidade)");
+        
+         try{
+            
+            if(entidade != null){
+                
+                try{
+                    genericDAO.UpdateDAO(Utils.JSON.convertFromJSONString(entidade, tipo));
+                }
+                catch(Exception ex){
+                    throw new IllegalArgumentException(ex.getMessage());
+                }
+            
+            }
+            else{
+                throw new IllegalArgumentException("Entidade invalida!");
+            }
+            
+        }
+        catch(IllegalArgumentException ex){
+            
+            getLOGGER().error(ex.getMessage());
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .type("application/json")
+                    .entity(Response.Status.INTERNAL_SERVER_ERROR 
+                            + " : ".concat(ex.getMessage())).build();
+            
+        }
+
+        return Response.ok(Response.Status.ACCEPTED)
+                    .type("application/json")
+                    .entity(tipo.getSimpleName()
+                            .concat(" : Atualizada(o) com sucesso!")).build();
+        
+    }
+  
+    @DELETE
+    @Path("/delete")
+    @Produces(MediaType.TEXT_HTML)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response delete(String entidade){
+        
+        getLOGGER().debug("Cliente executando metodo delete(String entidade)");
+        
+         try{
+            
+            if(entidade != null){
+                
+                try{
+                    genericDAO.DeleteDAO(Utils.JSON.convertFromJSONString(entidade, tipo));
+                }
+                catch(Exception ex){
+                    throw new IllegalArgumentException(ex.getMessage());
+                }
+            
+            }
+            else{
+                throw new IllegalArgumentException("Entidade invalida!");
+            }
+            
+        }
+        catch(IllegalArgumentException ex){
+            
+            getLOGGER().error(ex.getMessage());
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR)
+                    .type("application/json")
+                    .entity(Response.Status.INTERNAL_SERVER_ERROR 
+                            + " : ".concat(ex.getMessage())).build();
+            
+        }
+
+        return Response.ok(Response.Status.ACCEPTED)
+                    .type("application/json")
+                    .entity(tipo.getSimpleName()
+                            .concat(" : Removida(o) com sucesso!")).build();
+        
+    }
+    
 }

@@ -92,7 +92,7 @@ public class DBConnection {
                 && !arq.isDirectory() 
                     || arq.length() <= 10000000) {
             
-            LOGGER.warn("ARQUIVO DE BANCO DE DADOS NÃO ENCONTRADO, OU PARECE ESTAR VAZIO.");
+            LOGGER.warn("ARQUIVO DE BANCO DE DADOS NAO ENCONTRADO, OU PARECE ESTAR VAZIO.");
             LOGGER.warn("GERANDO UM NOVO BANCO DE DADOS... AGUARDE...");
         
             try {
@@ -145,7 +145,7 @@ public class DBConnection {
             
         }
         else{
-            LOGGER.info("Banco de dados encontrado, prosseguindo execução..");
+            LOGGER.info("Banco de dados encontrado, prosseguindo programa...");
         }
 
     }

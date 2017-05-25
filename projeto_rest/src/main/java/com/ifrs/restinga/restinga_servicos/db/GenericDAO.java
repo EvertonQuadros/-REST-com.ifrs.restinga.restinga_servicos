@@ -26,6 +26,7 @@ import com.ifrs.restinga.restinga_servicos.classes.Consulta;
 import com.ifrs.restinga.restinga_servicos.classes.Entidade;
 
 import com.ifrs.restinga.restinga_servicos.utils.EntityManagerUtil;
+import com.ifrs.restinga.restinga_servicos.utils.Utils;
 
 import java.lang.reflect.ParameterizedType;
 
@@ -89,10 +90,6 @@ public class GenericDAO<T extends Entidade>{
         return new GenericGet(LOGGER,tipo).get(consulta);
     }
     
-    public Entidade getObjectDAO(Consulta consulta) throws Exception{
-        return new GenericGet(LOGGER,tipo).getObject(consulta);
-    }
-    
     public JSONArray listDAO(int limit) throws Exception{
         return new GenericList(LOGGER,tipo).list(limit);
     }
@@ -107,6 +104,10 @@ public class GenericDAO<T extends Entidade>{
     
     public void UpdateDAO(T entidade) throws Exception{
         new GenericUpdate(LOGGER,tipo).update(entidade);
+    }
+    
+    public void DeleteDAO(T entidade) throws Exception{
+        new GenericDelete(LOGGER,tipo).delete(entidade);
     }
 
 }

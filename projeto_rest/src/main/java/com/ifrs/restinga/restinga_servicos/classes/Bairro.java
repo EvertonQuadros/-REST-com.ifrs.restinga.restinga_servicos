@@ -45,16 +45,6 @@ public class Bairro extends Entidade {
         super();
     }
     
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
-    
     public String getDesc_bairro() {
         return desc_bairro;
     }

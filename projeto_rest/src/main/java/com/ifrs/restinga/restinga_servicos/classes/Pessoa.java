@@ -24,6 +24,7 @@ package com.ifrs.restinga.restinga_servicos.classes;
 
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -38,7 +39,7 @@ public class Pessoa extends Entidade {
     private String nomePessoa;
     
     @OneToOne
-    @JoinColumn(name = "logradouro_cep")
+    @JoinColumn(name = "logradouro_id")
     private Logradouro logradouro;
     
     private String numero;
@@ -52,21 +53,12 @@ public class Pessoa extends Entidade {
     @JoinColumn(name = "pessoa_tipo_id")
     private Pessoa_tipo pessoa_tipo;
     
+    @Lob
     private String foto;
     
     @OneToOne
     @JoinColumn(name = "nota_id")
     private Nota nota;
-
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNomePessoa() {
         return nomePessoa;
@@ -147,7 +139,7 @@ public class Pessoa extends Entidade {
     public void setFoto(String foto) {
         this.foto = foto;
     }
-
+    
     public Nota getNota() {
         return nota;
     }

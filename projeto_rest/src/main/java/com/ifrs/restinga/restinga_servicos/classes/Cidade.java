@@ -39,16 +39,6 @@ public class Cidade extends Entidade {
     public Cidade(){
         super();
     }
-
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
     
     public String getDesc_cidade() {
         return desc_cidade;

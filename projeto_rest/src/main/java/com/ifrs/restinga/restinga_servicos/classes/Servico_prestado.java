@@ -64,16 +64,6 @@ public class Servico_prestado extends Entidade {
     @Column(columnDefinition = "TINYINT")
     @Type(type = "org.hibernate.type.NumericBooleanType")
     private boolean orcamento;
-    
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public Pessoa getContratante() {
         return contratante;

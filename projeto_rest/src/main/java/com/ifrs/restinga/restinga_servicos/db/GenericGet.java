@@ -108,36 +108,4 @@ public class GenericGet<T extends Entidade> extends GenericDAO<T>{
    
     }
     
-    protected T getObject(Consulta consulta) throws Exception {
-        
-        T obj = null;
-
-        query = entityManager.createQuery(argumento.toString()
-                                       .concat(consulta.getConsultaName(true)));
-        
-        for(int i = 1 ; i < consulta.getPos(); i++){
-            query.setParameter(i, consulta.getArgumentoByIndex(i-1));    
-        }
-        
-        try {
-        
-            entityManager.getTransaction().begin();
-
-            obj = (T)query.getSingleResult();
-            
-            entityManager.getTransaction().commit();
-            
-        } 
-        catch (Exception e) {
-            
-            LOGGER.error("SQLEXCEPTION: " + e.getMessage());
-            entityManager.getTransaction().rollback();
-            throw new Exception(e.getMessage());
-            
-        }
-        
-        return obj;
-        
-    }
-    
 }

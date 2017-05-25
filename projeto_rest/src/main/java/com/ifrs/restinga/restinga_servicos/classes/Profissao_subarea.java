@@ -40,16 +40,6 @@ public class Profissao_subarea extends Entidade {
     private Profissao_area area;
     
     private String nome;
-
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
     
     public String getNome() {
         return nome;

@@ -45,16 +45,6 @@ public class Pessoa_contato extends Entidade {
     
     private String contato;
     
-    @Override
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public Pessoa getPessoa() {
         return pessoa;
     }

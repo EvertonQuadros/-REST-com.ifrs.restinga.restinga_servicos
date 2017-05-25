@@ -151,6 +151,10 @@ public class Consulta {
     * EQUALS (Operaçao igual (=)),
     * DIFF (Operaçao diferente (!=)),
     * LIKE (Operaçao comparativa de String (LIKE)).
+    * LESSER (Operaç?o menor (<)),
+    * LESSER_EQ (Operacao menor ou igual (<=)),
+    * GREATER (Operaç?o maior (>)),
+    * GREATER_EQ (Operaç?o maior ou igual (>=)).
     */
     public enum LogicaEnum {
        EQUALS(" = "),

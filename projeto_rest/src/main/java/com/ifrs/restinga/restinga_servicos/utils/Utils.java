@@ -22,20 +22,32 @@
  */
 package com.ifrs.restinga.restinga_servicos.utils;
 
+import com.google.gson.Gson;
+
+import com.ifrs.restinga.restinga_servicos.classes.Entidade;
+
 import java.io.File;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
 import java.sql.ResultSet;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Set;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
+
 import org.apache.log4j.Logger;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import org.reflections.Reflections;
 
 /**
  *
@@ -48,6 +60,11 @@ public class Utils {
     public static class General {
        
         private static final String SEPARATOR = File.separator;
+        private static final long TIMEADJ = 24*60*60*1000;
+           
+        public static Date getDataExpira(){
+            return new Date (new Date().getTime() + TIMEADJ);
+        }
         
         public static String getResourcePath(){
                
@@ -138,22 +155,25 @@ public class Utils {
             
         }
         
+        public static Entidade convertFromJSONString(String json, Class<? extends Entidade> tipo){
+            return new Gson().fromJson(json, tipo);
+        }
+        
     }
     
     public static class Configurations {
         
-        public static PropertiesConfiguration getConfiguration(){
+        private static PropertiesConfiguration config;
+        
+        public static PropertiesConfiguration getConfiguration(String propertiesFile){
             
             LOGGER.debug("Executando metodo getConfiguration()");
-            
-            @SuppressWarnings("UnusedAssignment")
-            PropertiesConfiguration config = null;
             
             try{
                 
                 config = new PropertiesConfiguration();
-                config.load(Utils.General.getResourcePath().concat("config.properties"));
-               
+                config.load(Utils.General.getResourcePath().concat(propertiesFile));
+                
             }
             catch(ConfigurationException ex){
                 
@@ -166,6 +186,72 @@ public class Utils {
             
         }
         
+        public static void setConfiguration(String propertiesFile, 
+                                            HashMap<String,String> valores){
+
+            try{
+            
+                config = new PropertiesConfiguration(Utils.General.getResourcePath()
+                        .concat(propertiesFile));
+                
+                valores.entrySet().forEach((valor) -> {
+                    config.setProperty(String.valueOf(valor.getKey()), valor.getValue());
+                });
+                
+                config.save();
+            
+            }
+            catch(ConfigurationException ex){
+                
+                LOGGER.fatal(ex.getMessage());
+                System.exit(1);
+                
+            }
+            
+        }
+        
+    }
+    
+    public static class Reflection{
+        
+        private final static Logger LOGGER = Logger.getLogger(Reflection.class);
+        
+        public static Entidade getInstance(Entidade entidade){
+     
+            Reflections reflections = new Reflections();
+            Set<Class<? extends Entidade>> subTypes = reflections.getSubTypesOf(Entidade.class);
+
+            for(Class<? extends Entidade> sub : subTypes){
+               
+                Entidade entity = null;
+                
+                try {
+                    
+                    entity = sub.newInstance();
+                    entity = entity.getClass().cast(entidade);
+                    
+                } 
+                catch (InstantiationException | IllegalAccessException ex) {
+                    LOGGER.error(ex.getMessage());
+                }
+                
+                if(entity != null){
+                    
+                    LOGGER.debug(entity.getClass().getSimpleName());
+                    LOGGER.debug("--->"+entidade.getClass().getSimpleName());
+
+                    if(entity.getClass().isInstance(entidade)){
+                        return entity.getClass().cast(entidade);
+                    }
+  
+                }
+                
+            }
+     
+            return null;
+            
+        }
+  
     }
     
 }

@@ -47,7 +47,7 @@ public class PessoaProfissaoEntry extends EntryPoint{
     }
     
     @GET
-    @Path("list/profissao/{param}")
+    @Path("/list/profissao/{param}")
     @Produces("application/json")
     public Response listPessoaProfissionalByProfissao(@PathParam("param") int id){
 

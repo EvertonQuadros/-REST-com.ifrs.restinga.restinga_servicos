@@ -35,21 +35,20 @@ import javax.persistence.Table;
 @Table(name = "logradouro")
 public class Logradouro extends Entidade {
     
+    private int cep;
     private String desc_logradouro;
     private String desc_tipo;
-    
+
     @OneToOne
     @JoinColumn(name = "bairro_id")
     private Bairro bairro;
 
-    @Override
-    public int getId() {
-        return id;
+    public int getCep() {
+        return cep;
     }
 
-    @Override
-    public void setId(int id) {
-        this.id = id;
+    public void setCep(int cep) {
+        this.cep = cep;
     }
     
     public String getDesc_logradouro() {

@@ -45,7 +45,7 @@ public class EmailHelper {
     public static class Email{
        
         private static final PropertiesConfiguration CONFIG 
-            = Utils.Configurations.getConfiguration();
+            = Utils.Configurations.getConfiguration("config.properties");
         
         private static final String SMTPSERVER = CONFIG.getString("email.server");
         private static final String SMTPSERVERPORT = CONFIG.getString("email.port"); //alterado de 465

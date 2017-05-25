@@ -22,7 +22,7 @@
  */
 package com.ifrs.restinga.restinga_servicos.entries;
 
-import com.ifrs.restinga.restinga_servicos.classes.Chat_Cliente_Profissional;
+import com.ifrs.restinga.restinga_servicos.classes.Orcamento_chat;
 
 import javax.ws.rs.Path;
 
@@ -36,7 +36,7 @@ public class ChatEntry extends EntryPoint{
     
     public ChatEntry() {
         super(ChatEntry.class,
-                Chat_Cliente_Profissional.class,
+                Orcamento_chat.class,
                 "/entry-point/restingaservicos/chat");
     }
     
